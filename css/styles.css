@@ -1,0 +1,81 @@
+body{
+  background-color: #f5f5f5;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.image{
+  width: 100%;
+  height: 40vh;
+}
+.main-body{
+  position: absolute;
+  box-sizing: border-box;
+}
+.flex-container{
+  padding-top: 32px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: 60vw;
+  margin-bottom: 10vh;
+}
+.profile-img{
+  height: 128px;
+  width: 128px;
+  border-radius: 100%;
+}
+.profile-details{
+  padding-left: 28px;
+}
+.profile-name{
+  font-size: 42px;
+  font-weight: 400;
+}
+.profile-bio{
+  font-size: 20px;
+}
+.profile-location{
+  font-size: 16px;
+  padding-top: 2px;
+  text-decoration-color: #6E6E6E;
+}
+.profile-email{
+  font-size: 16px;
+  padding-top: 2px;
+}
+.profile-social-media{
+  padding-top: 10px;
+  margin-left: 165px;
+}
+.social-links{
+  margin-right: 0;
+  height: 50px;
+  width: 50px;
+}
+.articles{
+  width: 76vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  border-top: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4vw;
+  padding-top: 10vh;
+}
+.article{
+  display: flex;
+  flex-direction: column;
+}
+.article-img{
+  height: 12vw;
+  width: 22.6vw;
+}
+.article-heading{
+  font-size: 20px;
+  padding-top: 3.2vh;
+}
+.article-text{
+  font-size: 14px;
+}
